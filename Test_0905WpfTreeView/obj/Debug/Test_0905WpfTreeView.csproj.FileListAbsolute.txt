@@ -1,0 +1,15 @@
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\bin\Debug\Test_0905WpfTreeView.exe.config
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\bin\Debug\Test_0905WpfTreeView.exe
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\bin\Debug\Test_0905WpfTreeView.pdb
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.csprojAssemblyReference.cache
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\MainWindow.g.cs
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\App.g.cs
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView_MarkupCompile.cache
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView_MarkupCompile.lref
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\MainWindow.baml
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.g.resources
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.Properties.Resources.resources
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.csproj.GenerateResource.cache
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.csproj.CoreCompileInputs.cache
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.exe
+C:\Users\11912\source\repos\Test_0905WpfTreeView\Test_0905WpfTreeView\obj\Debug\Test_0905WpfTreeView.pdb
