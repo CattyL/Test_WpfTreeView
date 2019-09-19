@@ -9,7 +9,7 @@
         Title="MainWindow" Height="325" Width="525">
 
     <StackPanel>
-        <TreeView x:Name="FolderView" ScrollViewer.VerticalScrollBarVisibility="Auto" Height="295">
+        <TreeView x:Name="FolderView" ScrollViewer.VerticalScrollBarVisibility="Auto" Height="290">
             <TreeView.Resources>
                 <Style TargetType="{x:Type TreeViewItem}">
                     <Setter Property="HeaderTemplate">
@@ -23,7 +23,10 @@
                                                 x:Type TreeViewItem
                                             }
                                         },
-                                        Path=Tag
+                                        Path=Tag,
+                                        Converter={
+                                            x:Static local:HeaderToImageConverter.Instance
+                                        }
                                     }"/>
                                     <TextBlock VerticalAlignment="Center" Text="{Binding}"/>
                                 </StackPanel>
