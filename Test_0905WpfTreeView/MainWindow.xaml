@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_0905WpfTreeView"
         mc:Ignorable="d"
-        Loaded="Window_Loaded"
+
         Title="MainWindow" Height="325" Width="525">
 
     <StackPanel>
