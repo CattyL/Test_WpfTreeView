@@ -11,6 +11,7 @@ namespace Test_0905WpfTreeView
     {
         /// <summary>
         /// Gets all logical drives on the computer
+        /// 获取计算机上的所有逻辑驱动器
         /// </summary>
         /// <returns></returns>
         public static List<DirectoryItem> GetLogicalDrives()
@@ -45,6 +46,58 @@ namespace Test_0905WpfTreeView
             //    // 将其添加到主树视图
             //    FolderView.Items.Add(item);
             //}
+        }
+
+        /// <summary>
+        /// Gets the directories top-level content
+        /// 获取目录顶级内容
+        /// </summary>
+        /// <param name="fullPath">The full path to the directory</param>
+        /// <returns></returns>
+        public static List<DirectoryItem> GetDirectoryContents(string fullPath)
+        {
+            //Create empty list
+            var items = new List<DirectoryItem>();
+
+            #region Get Folders
+
+            // Try and get directories from the folder ignoring any issues doing so 
+            // 尝试从文件夹中获取目录，忽略这样做的任何问题
+            try
+            {
+                var dirs = Directory.GetDirectories(fullPath);
+
+                if (dirs.Length > 0)
+                    items.AddRange(dirs.Select(dir => new DirectoryItem { FullPath = dir, Type = DiretoryItemType.folder}));
+
+            }
+            catch { }
+
+            
+
+            #endregion
+
+            #region Get files
+
+            //// Create a blank list for files
+            //// 为目录创建一个空白列表
+            //var files = new List<string>();
+
+            // Try and get files from the folder ignoring any issues doing so 
+            // 尝试从文件夹中获取目录，忽略这样做的任何问题
+            try
+            {
+                var fs = Directory.GetFiles(fullPath);
+
+                if (fs.Length > 0)
+                    items.AddRange(fs.Select(file => new DirectoryItem { FullPath = file, Type = DiretoryItemType.file}));
+
+            }
+            catch { }
+
+            #endregion
+
+            return items;
         }
 
         #region Helpers
