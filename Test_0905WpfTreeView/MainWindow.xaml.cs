@@ -20,7 +20,6 @@ namespace Test_0905WpfTreeView
         {
             InitializeComponent();
 
-            this.DataContext = new Class1();
         }
 
         #endregion
